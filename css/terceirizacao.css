@@ -1,0 +1,314 @@
+/*
+#000 - marrom
+#f7f3a6 - dourado claro hover
+#002f42 - azul petroleo
+#7c8e9d - cinza
+
+font-family: 'Montserrat', sans-serif;
+
+alinhar colunas na row
+.centered {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+left: calc(50% - 72px);
+
+-
+align-self-center
+
+|
+justify-content-center
+
+@media (min-width: 576px) {
+    
+}
+
+@media (min-width: 768px) {
+    
+}
+
+*/
+
+/*terceirizacao*/
+#terceirizacao {
+    padding: 0;
+    
+    margin-bottom: 20px;
+    color: #000;
+    /*    padding-bottom: 50px;*/
+}
+
+#terceirizacao video {
+    /*    position: absolute;*/
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: 100%;
+    height: auto;
+    z-index: 0;
+}
+
+/*COMO FUNCIONA*/
+#comofunciona {
+    padding: 30px 0;
+    background: #fff;
+}
+
+#comofunciona h1 {
+    margin: 30px 0 0 0;
+    color: #000;
+}
+
+#comofunciona h3 {
+    font-size: 20px;
+    color: #000;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 15px;
+/*    padding: 10px 0;*/
+}
+
+#comofunciona h4 {
+    margin: 20px 0 15px 0;
+    font-size: 24px;
+    color: #000;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    width: 100%;
+}
+
+#comofunciona p {
+    margin-bottom: 0;
+    font-weight: 300;
+    text-align: justify;
+    color: #000;
+}
+
+#comofunciona .card-image .card-img  {
+    border-radius: 0;
+}
+
+#comofunciona .card-image  {
+    height: 100%!important;
+}
+
+@media (max-width: 768px) {
+    #comofunciona .deps {
+/*        max-width: 343px;*/
+    }
+    
+    #comofunciona p {
+        text-align: center;
+    }
+}
+
+#comofunciona .slick-dots li.slick-active button:before {
+    color: #fff;
+    opacity: 100%;
+}
+#comofunciona .slick-dots button:before {
+    color: #eae1da;
+}
+
+
+/* diferenciais */
+#diferenciais {
+    padding: 0 0 90px 0;
+    text-align: center;
+    border-top: 1px solid #eaeaea;
+    border-bottom: 1px solid #eaeaea;
+}
+
+#diferenciais .diferenciais-img {
+    background: url(../img/terceirizacao/terceirizacao-diferencia.jpg) center center no-repeat;
+    background-size: cover;
+    height: 500px;
+    margin-bottom: 60px;
+}
+
+#diferenciais h1 {
+    margin-bottom: 30px;
+}
+
+#diferenciais h2 {
+    color: #000;
+    text-align: left
+}
+
+#diferenciais p {
+    text-align: justify;
+    color: #000;
+    line-height: 150%;
+    font-weight: 300;
+}
+
+/*#sobre-terceirizacao */
+#sobre-terceirizacao {
+    padding: 0 0 90px 0;
+    text-align: center;
+}
+
+#sobre-terceirizacao .sobre-terceirizacao-img {
+    background: url(../img/terceirizacao/terceirizacao-sobre.jpg) center center no-repeat;
+    background-size: cover;
+    height: 500px;
+    margin-bottom: 60px;
+}
+
+#sobre-terceirizacao h1 {
+    margin-bottom: 30px;
+}
+
+#sobre-terceirizacao h2 {
+    color: #000;
+    text-align: left
+}
+
+#sobre-terceirizacao p {
+    text-align: justify;
+    color: #000;
+    line-height: 150%;
+    font-weight: 300;
+}
+
+/*clientes*/
+
+#clients {
+    padding-bottom: 50px;
+}
+
+/*terceirizacao*/
+#terceirizacao-contato {
+    padding: 0;
+    text-align: center;
+    background-color: #faf9ff;
+}
+
+#terceirizacao-contato h1 {
+    font-size: 38px;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+#terceirizacao-contato h2 {
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+#terceirizacao-contato p {
+    font-size: 18px;
+}
+
+#terceirizacao-contato .about-img {
+    height: 700px;
+    overflow: hidden;
+    background: url(../img/terceirizacao/about.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+@media (max-width: 768px) {
+    #terceirizacao-contato .about-img {
+        height: 300px;
+        overflow: hidden;
+        margin-bottom: 60px;
+    }
+    
+    #terceirizacao-contato {
+        padding-bottom: 90px;
+    }
+    
+    #terceirizacao-contato h1 {
+        text-align: center;
+        margin: 0 0 20px 0;
+    }
+}
+
+
+#terceirizacao-contato .form {
+    padding-top: 13px;
+    text-transform: uppercase;
+    font-size: 13px;
+    margin-bottom: 16px;
+}
+
+
+#terceirizacao-contato .form #sendmessage {
+    color: #285780;
+    border: 1px solid #285780;
+    display: none;
+    text-align: center;
+    padding: 15px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+#terceirizacao-contato .form #errormessage {
+    color: red;
+    display: none;
+    border: 1px solid red;
+    text-align: center;
+    padding: 15px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+#terceirizacao-contato .form #sendmessage.show,
+#terceirizacao-contato .form #errormessage.show,
+#terceirizacao-contato .form .show {
+    display: block;
+}
+
+#terceirizacao-contato .form .validation {
+    color: red;
+    display: none;
+    margin: 0 0 20px;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+#terceirizacao-contato .form input,
+#terceirizacao-contato .form textarea {
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: none;
+    font-size: 13px;
+    border-top: 1px;
+    border-left: 1px;
+    border-right: 1px;
+    text-transform: uppercase;
+    margin-bottom: 17px;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+#terceirizacao-contato .form-group {
+    margin-bottom: 0;
+}
+
+#terceirizacao-contato .form button[type="submit"] {
+    border: 1px solid #dedede;
+    border-radius: 50px;
+    padding: 7px 50px;
+    color: #000;
+    transition: all 0.3s;
+    cursor: pointer;
+    text-transform: uppercase;
+    background: #faf9ff;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+#terceirizacao-contato .form button[type="submit"]:hover {
+    background: #000;
+    color: #fff;
+    border: 1px solid #000;
+    transform: scale(1.1);
+}
+
+/*sobre terceirização*/
+#terceirizacao-about {
+    padding: 100px 0 0;
+}
